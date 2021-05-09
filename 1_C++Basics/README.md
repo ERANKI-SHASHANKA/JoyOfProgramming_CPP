@@ -30,6 +30,16 @@ i.e An example program that demonstrates the concept of 1_C section of this READ
 
 `1_D) Introduction to iostream: cout, cin, and endl` :
 
+    - std::endl vs ‘\n’ : 
+        (i) Using std::endl can be a bit inefficient, as it actually does two jobs : 
+            (a) it moves the cursor to the next line.
+            (b) it “flushes” the output (makes sure that it shows up on the screen immediately).
+        (ii) When writing text to the console using std::cout, std::cout usually flushes output anyway.
+        (iii) The ‘\n’ character moves the cursor to the next line, but doesn’t do the redundant flush, so it performs better.
+
+    - Note that you don’t need to use ‘\n’ when accepting input (std::cin), as the user will need to press the enter key to have their input accepted, and this will move the cursor to the next line.
+
+    
 
 
 
@@ -37,3 +47,4 @@ i.e An example program that demonstrates the concept of 1_C section of this READ
 ```
 1) Favor direct list initialization whenever possible.
 2) Initialize your variables upon creation.
+3) Prefer ‘\n’ over std::endl when outputting text to the console.
