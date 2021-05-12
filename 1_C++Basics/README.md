@@ -39,12 +39,17 @@ i.e An example program that demonstrates the concept of 1_C section of this READ
 
     - Note that you don’t need to use ‘\n’ when accepting input (std::cin), as the user will need to press the enter key to have their input accepted, and this will move the cursor to the next line.
 
-    
+`1_E) Keywords & Naming identifiers` :
 
-
+    - As of C++20, C++ has 92 keywords (or reserver words).
+    - C++ also defines special identifiers : override, final, import, and module. These have a specific meaning when used in certain contexts but are not reserved.
+    - It is a convention in C++ that variable names should begin with a lowercase letter.
+    - Identifier names that start with a capital letter are typically used for user-defined types (such as structs, classes, and enumerations).
 
 ### GOOD PRACTICE :
 ```
 1) Favor direct list initialization whenever possible.
 2) Initialize your variables upon creation.
 3) Prefer ‘\n’ over std::endl when outputting text to the console.
+4) When working in an existing program, use the conventions of that program (even if they don’t conform to modern best practices). Use modern best practices when you’re writing new programs.
+5) You should avoid naming your identifiers starting with an underscore, as these names are typically reserved for OS, library, and/or compiler use.
