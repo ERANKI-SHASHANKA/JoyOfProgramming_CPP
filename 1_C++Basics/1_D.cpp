@@ -49,5 +49,15 @@ int main()
     // For input > 2147483647   ------- Output : 2147483647 (max limit, post this int overflows)
     std::cout << "You entered " << x << '\n';
 
+    std::cout<<"Hello\n"; // Valid
+
+    // Invalid (error: missing terminating " character)
+    //  std::cout<<"Hello
+    //  World"; */
+
+    // Valid
+    std::cout<<"Hello"
+    "World\n";
+
     return 0;
 }

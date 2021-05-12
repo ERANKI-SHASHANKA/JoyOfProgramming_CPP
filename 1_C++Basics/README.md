@@ -46,6 +46,10 @@ i.e An example program that demonstrates the concept of 1_C section of this READ
     - It is a convention in C++ that variable names should begin with a lowercase letter.
     - Identifier names that start with a capital letter are typically used for user-defined types (such as structs, classes, and enumerations).
 
+`1_F) Whitespace and basic formatting` :
+
+    - Quoted text separated by nothing but whitespace (spaces, tabs, or newlines) will be concatenated.
+
 ### GOOD PRACTICE :
 ```
 1) Favor direct list initialization whenever possible.
@@ -53,3 +57,4 @@ i.e An example program that demonstrates the concept of 1_C section of this READ
 3) Prefer ‘\n’ over std::endl when outputting text to the console.
 4) When working in an existing program, use the conventions of that program (even if they don’t conform to modern best practices). Use modern best practices when you’re writing new programs.
 5) You should avoid naming your identifiers starting with an underscore, as these names are typically reserved for OS, library, and/or compiler use.
+6) Your lines should be no longer than 80 chars in length.
