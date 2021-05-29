@@ -15,3 +15,4 @@ This repository is for C++ understanding & preparation. It shall have topics and
 
 ```
 - gcc creates <filename>.h.gch file if we compile a .h file. This file is called a precompiled header.
+- Division by 0 gives output as "inf"

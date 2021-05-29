@@ -68,4 +68,4 @@ i.e An example program that demonstrates the concept of 2_A section of this READ
 9) Always include header guards
 10) Each header file should have a specific job, and be as independent as possible.
 11) Only #include what you need (don’t include everything just because you can).
-12) Do not #include .cpp files.
+12) Do not #include .cpp files (It may/may not throw errors). If you both #include and compile a source file, you'll get multiple definition errors.
